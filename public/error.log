@@ -1,0 +1,4 @@
+[Sun Feb 27 10:44:57 2011] [error] [client 127.0.0.1] File does not exist: F:/apache/project.uz/favicon.ico
+[Sun Feb 27 10:54:32 2011] [error] [client 127.0.0.1] File does not exist: F:/apache/project.uz/js/jquery.jqGrid.js, referer: http://project.uz/main/spr_royhat
+[Sun Feb 27 10:54:33 2011] [error] [client 127.0.0.1] File does not exist: F:/apache/project.uz/js/jquery.jqGrid.js, referer: http://project.uz/main/spr_royhat
+[Sun Feb 27 15:25:24 2011] [error] [client 127.0.0.1] File does not exist: F:/apache/project.uz/favicon.ico

@@ -1,0 +1,9 @@
+version: "3.1"
+services:
+  web:
+    build: docker/php5-6-apache2-ext
+    container_name: php5-container-ext
+    volumes:
+      - ./public:/var/www/html
+    ports:
+      - "80:80"

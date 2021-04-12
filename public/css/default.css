@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+
+* { margin: 0; padding: 0; }
+
+body { 
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	background: #FFFFFF none repeat scroll 0 0; 
+//	line-height: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+#asosiy {
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	width: 1024px;
+}
+
+#divname{
+	float:left;
+	position: relative;
+	margin: 15px 0px 10px 17px;
+	color: #394967;
+}
+
+#h1logo{
+	font-family: "Segoe UI", Geneva, Arial, Helvetica, sans-serif;;
+	font-size: 20px;
+}
+
+#logo{
+	float:right;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#pics{
+	margin-top: 5px;
+	float: left; 
+}
+
+#piclink{
+	font: "Segoe UI", Geneva, Arial, Helvetica;
+	color:#000033;
+	font-size: 10px;
+	text-decoration: none;
+	padding-right: 10px;
+}
+#piclink:hover{
+	font:"Segoe UI", Geneva, Arial, Helvetica, sans-serif;
+	color:#990000;
+	font-size: 11px;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+.markaz {
+	color:#333333;
+	width: 980px;
+	height: 25px;
+	margin: 50px 0px 0px 15px;
+	position: absolute;
+	padding-top: 0px;
+	padding-right: 0px; 
+	padding-bottom: 0px;
+	background:url(../images/menu_back_blue.png);
+	background-repeat: repeat-x;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+}
+#vback {
+	width: 950px;
+	background-color:#F7F7F7;
+	position:absolute;
+	border: 1px solid;
+	margin: 80px 0px 0px 20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	z-index: -1;
+	padding: 10px; 
+}
+/*.footer {*/
+	/*color:#333333;*/
+	/*width: 980px;*/
+	/*height: 25px;*/
+	/*padding-top: 0px;*/
+	/*padding-right: 0px;*/
+	/*padding-bottom: 0px;*/
+	/*background:url(../images/menu_back_blue.png);*/
+	/*background-repeat: repeat-x;*/
+	/*-moz-border-radius:5px 5px 5px 5px;*/
+	/*-webkit-border-radius:5px 5px 5px 5px;*/
+/*}*/
+
+
+h1 { margin-bottom: .5em; border-bottom: solid 1px #d9d9d9; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 180%; text-indent: 5px; letter-spacing: -1px; }
+cite { float: right; }
+ul.classic { list-style: disc; margin-bottom: 1em; padding-left: 2em; }
+div.section { clear: both; padding-top: 50px; }
+
+ul.dropdown {
+ float: left;
+ font-family:Geneva,Arial,Helvetica,sans-serif;
+ font-size: 11px;
+ padding: 0px;
+}
+
+	ul.dropdown li {
+	 color: #fff;
+	 display: block;
+	 float: left;
+//	 background:url(../images/line_menu.png);
+//	 background-repeat: no-repeat;
+	}
+
+	ul.dropdown li.hover,
+	ul.dropdown li:hover {
+	 background-color: #4f6893;
+	 padding: 0px;
+	 margin: 0px;
+	 height: 25px;
+	}
+
+	ul.dropdown a:link,
+	ul.dropdown a:visited { color: #e4e4e4; text-decoration: none; }
+	ul.dropdown a:hover { color: #e4e4e4; text-decoration: none; }
+	ul.dropdown a:active { color: #e4e4e4; }
+
+
+/* ----- END LEVEL */
+
+
+	/* ----- NON-FIRST LEVEL */
+
+	ul.dropdown ul {
+	 margin-left: -6px;
+	 width: 170px;
+	 padding-bottom: 9px;
+	 background: url(../images/dropdown_pane.png) 0 100% no-repeat;
+	 color: #000;
+	 font-size: 11px;
+	 font-weight: normal;
+	}
+
+		ul.dropdown ul li {
+		 background-color: transparent;
+		 color: #000;
+		}
+
+		ul.dropdown ul li.hover,
+		ul.dropdown ul li:hover {
+		 background-color: transparent;
+		}
+
+		ul.dropdown ul li.empty {
+		 padding: 12px 12px 7px !important;
+		 font-weight: bold;
+		}
+
+		ul.dropdown ul a:link,
+		ul.dropdown ul a:visited { color: #000; }
+		ul.dropdown ul a:hover { color: #000; text-decoration: none; }
+		ul.dropdown ul a:active { color: #000; }
+
+			ul.dropdown ul ul {
+			 display: none;
+			}
+
+			ul.dropdown ul ul li {}
+
+/* ----- END LEVEL */
+
+
+
+/*------------------------------------------------------------------------------------------------------/
+ * @section	Support Class 'dir'
+ * @level sep	ul, .class
+ */
+
+
+/* ----- ALL LEVELS (incl. first) */
+
+ul.dropdown *.dir {
+ padding-right: 12px;
+ background-image: none;
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+}
+
+/* ----- END LEVEL */
+
+
+
+
+/* Components override */
+
+ul.dropdown-horizontal ul *.dir {
+ padding-right: 15px;
+ background-image: (images/nav-arrow-right.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+}
+
+ul.dropdown-vertical *.dir {
+ background-image: url(images/nav-arrow-right.png);
+}
+
+ul.dropdown-vertical-rtl *.dir {
+ padding-right: 15px;
+ background-image: url(images/nav-arrow-left.png);
+ background-position: 0 50%;
+}
